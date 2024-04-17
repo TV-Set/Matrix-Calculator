@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Аттестационное задание</title>
+</head>
+<body>
+    <h1>Аттестационное задание (Поляков Н.В)</h1>
+    <p>
+    <h2>Введите в нижерасположенное поле значение плотности нашивки для расчёта соотношения "матрица-наполнитель":</h2>
+    <p>
+        {% if message %}
+        {{message}}
+        {% endif %}
+    </p>
+    <form action="" method="post">
+        <p>
+            <label>Плотность нашивки:</label>
+            <input type="text" name="patch">
+        </p>
+        <p>
+        <input type="submit">
+        </p>
+    </form>
+</body>
+</html>
